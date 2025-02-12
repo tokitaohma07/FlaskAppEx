@@ -8,6 +8,6 @@ COPY app.py /flaskapp/
 
 RUN pip install flaskapp
 
-RUN pip install -r reqirements.txt
+RUN pip install -r requirements.txt
 
 CMD ["python" , "app.py"]
